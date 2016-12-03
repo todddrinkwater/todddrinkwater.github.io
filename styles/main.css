@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  background-color: #78BC76;
+  margin: 0;
+}
+
+header h1 {
+  display: inline;
+}
+
+nav ul {
+  margin: 0;
+  display: inline;
+}
+
+
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  color: white;
+  padding: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+}
+
+.main-text {
+  padding: 5% 20%;
+}
+
+h1 {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+
+/*
+CSS Design
+- Nav Menu
+  - Oswald Font
+  - Block-inline style
+  - No bullet points
+  - Mild colour, semi-transparent background
+
+Body Design
+- No Margin
+- Font style - Open Sans Light
+
+*/
