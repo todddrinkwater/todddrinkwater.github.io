@@ -6,6 +6,7 @@
   border-color: red;
 }
 */
+
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
@@ -15,7 +16,7 @@ header {
   font-family: 'Lato', sans-serif;
   font-family: 'Oswald', sans-serif;
   background-color: #16deb0;
-  margin: 0;
+  margin: 0 0 100px 0;
   position: fixed;
   width: 100%;
   top: 0;
