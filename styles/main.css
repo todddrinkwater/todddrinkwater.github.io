@@ -1,3 +1,28 @@
+/* Nav Bar Styling */
+
 .nav {
   background: #313131;
+  position: fixed;
+  flex-wrap: wrap;
+  width: 100%;
+  display: block;
+  color: white;
+}
+
+
+li {
+  list-style-type: none;
+  display:inline-block;
+  color: white;
+}
+
+/* Anchor Styling */
+
+a {
+ color: white;
+ text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
 }
