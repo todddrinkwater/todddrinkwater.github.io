@@ -15,6 +15,7 @@ ul {
   margin: 0;
 }
 
+
 #mobile-navbar {
   background: #585454;
   margin: 0;
@@ -28,6 +29,10 @@ ul {
   font-size: 3rem;
   padding: 0;
   margin: 0;
+}
+
+#desktop-navbar {
+  display: none;
 }
 
 
@@ -91,6 +96,10 @@ ul {
   text-align: center;
 }
 
+.desktop-only {
+  display: none;
+}
+
 /* --------------------- Footer  ------------------------- */
 
 footer {
@@ -150,4 +159,71 @@ footer {
 
 .col-12 {
   width: 100%;
+}
+
+@media (min-width: 401px) {
+
+
+  .mobile-only {
+    display: none;
+  }
+
+  #mobile-navbar {
+    display: none;
+  }
+
+  #desktop-navbar {
+    display: inline;
+    list-style-type: none;
+    text-align: center;
+    font-size: 2rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  #desktop-navbar li {
+    padding-top: 1rem;
+  }
+
+  #desktop-navbar .row {
+    background: rgb(89, 85, 85);
+    opacity: 0.7;
+  }
+
+  #desktop-navbar a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .bg {
+
+display: block;
+
+/* Set rules to fill background */
+	min-width: 100%;
+	min-height: 100%;
+
+/* Set up proportionate scaling */
+	width: 100%;
+	height: auto;
+
+/* Set up positioning */
+	position: fixed;
+	top: 0;
+	left: 0;
+
+/***** STACK ORDER - SET UP IMG BEHIND TEXT   ***/
+
+	z-index: -1;
+}
+
+footer {
+    clear: both;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+    margin-top: -3em;
+}
+
+
 }
