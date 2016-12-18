@@ -1,41 +1,56 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Reflection Blog - Todd Drinkwater</title>
+    <title>Todd Drinkwater | Web Developer</title>
     <meta charset="UTF-8">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" rel="stylesheet" type="text/css">
     <link href="../styles/main.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato|Oswald" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   </head>
 
-<body>
+  <body>
 
-  <header>
-    <nav>
-  <h1>The Blog's of Todd</h1>
-  <ul>
-    <li><a href="../index.html">Home</a></li>
-    <li><a href="c1-reflection-blog.html">Reflection Blog</a></li>
-    <li><a href="c1-time-and-habits-blog.html">Time and Habits Blog</a></li>
-    <li><a href="t2-html-css-dom-p1.html">Technical Blog P1</a></li>
-    <li><a href="t2-html-css-dom-p2.html">Technical Blog P2</a></li>
-    <li><a href="c2-emotional-intelligence.html">Cultural Blog</a></li>
-  </ul>
-</nav>
-</header>
+    <header>
+      <!-- Mobile Only Content -->
+
+      <nav id="mobile-navbar">
+        <ul class="row">
+          <li class="dropdown col-3"><a href="#" title="Menu">| M |</a>
+            <ul class="drop-nav">
+              <li><a href="projects.html">projects</a></li>
+              <li><a href="blog-index.html">blogs</a></li>
+              <li><a href="about.html">about</a></li>
+            </ul>
+          <li  class="col-7 home-button"><a href="../index.html" title="Home">todddrinkwater</a></li>
+        </ul>
+      </nav>
 
 
-<div class="main-text">
-  <h1>Design and Structural Features</h1>
-</div>
+      <!-- Desktop Only Content -->
+
+      <nav id="desktop-navbar">
+        <ul class="row">
+              <li  class="five columns"><a href="../index.html" title="homepage" class="menu-button">todddrinkwater</a></li>
+              <li class="two columns"><a href="projects.html" title="projects" class="menu-button">projects</a></li>
+              <li class="two columns"><a href="blog-index.html" title="blogs" class="menu-button">blogs</a></li>
+              <li class="two columns"><a href="about.html" title="about" class="menu-button">about</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+
+  <h2>Design and Structural Features</h2>
+
 
 <!--This is Row 1-->
 <div class="row">
-  <div class="col-6">
+  <div class="six columns">
     <img src="img/website-wishlist/xero-simple.png" alt="Xero Grid Simplicity" id="xero">
   </div>
 
-  <div class="col-6">
+  <div class="six columns">
     <p><strong>Simpilicity</strong> - "In a study by Google in August of 2012, researchers found that not only will users judge websites as beautiful or not within 1/50th – 1/20th of a second, but also that “visually complex” websites are consistently rated as less beautiful than their simpler counterparts." (Source: http://conversionxl.com/why-simple-websites-are-scientifically-better/)</p>
 
     <p>The other side to this is cognitive fluency. This is the idea that things on the website appear when you expect them too and the website behaves like you expect it would. (Conversion XL).</p>
@@ -47,54 +62,55 @@
 
 <!--This is Row 2-->
 <div class="row">
-  <div class="col-6">
+  <div class="six columns">
     <img src="img/website-wishlist/robot.png" alt="Zen Robot" id="robot">
   </div>
 
-  <div class="col-6">
+  <div class="six columns">
     <p><strong>Layering</strong> - This concept gives a bit more depth to a website, and can be effective if you wish to display a key image in the background. Ideas of use could be for websites wanting to display prominent images to help sell and idea or product, or to help build a theme for a website.</p>
   </div>
 </div>
 
 <!--This is Row 3-->
 <div class="row">
-  <div class="col-6">
+  <div class="six columns">
     <img src="img/website-wishlist/apple.png" alt="Apple Design" id="apple">
   </div>
 
-  <div class="col-6">
+  <div class="six columns">
     <p><strong>Sliding Images with Optional Click Button</strong> - Apple's website displays this well. It displays big, high-definition images of the products it wishes to sell. For companies like Apple, which only have a small product line, this concept maximises the full width of the page to promote its products. The option click button allows users to scroll backwards or forwards at their own pace.
 </p>
   </div>
 </div>
 
-<div>
-  <h1>Understanding HTML, CSS, and the DOM model</h1>
-  <h2>HTML</h2>
+<div class="row">
+  <h3>Understanding HTML, CSS, and the DOM model</h3>
+  <h4>HTML</h4>
     <p>
       HTML is the backbone of your webpage. Think of it in terms of Cycling. If you were to build a bike from scratch, you might think that your bike is going to have two wheels, a frame, gears, and really imporantly, brakes. This would be the structure of a bike that works.
     </p>
-  <h2>CSS</h2>
+  <h4>CSS</h4>
     <p>
       CSS is a language utilized for styling a webpage. Although you might know what your Bike needs to have to work, you now have the option of using different materials on your bike that would suit what you intend to use it for. For example, a road bike may have thin light wheels, a carbon fibre frame and maybe some flames down the side if you're feeling kick-ass. A mountain bike however might come with a titanium, suspension frame and thicker tyres, to handle the pressure of off-road biking.
     </p>
-  <h2>The DOM Model</h2>
+  <h4>The DOM Model</h4>
     <p>
       The DOM model is a programming interface that is built into the application you use to browse the internet (e.g. Google Chrome). This interface acts like an interpreter or translator. It takes the code that you give the application (e.g. HTML) and interprets it following a set of rules that decided on how the code should be interpreted. Within the DOM, different parts of code are given different hierachies which helps decide when and how the code will be interpreted.
     </p>
 
 
-<h1>Boxes, boxes and more boxes</h1>
-    <h2>What is meant by Boxifying Design?</h2>
+<h3>Boxes, boxes and more boxes</h3>
+    <h4>What is meant by Boxifying Design?</h4>
       <p>
          Boxifying design is the concept of viewing your webpage as a series of boxes. When looking at a webpage, you should be able to break it up into a series of boxes, even the rounder images are grouped into boxes. Using this concept, it makes it easy for developers to arrange the content of a webpage effectively.
        </p>
-<h2>What is the box model?</h2>
-    <div class="row">
+<h4>What is the box model?</h4>
+</div>
 
-        <div class="col-6">
+    <div class="row">
+        <div class="six columns">
           <img src="img/boxmodel-image.png" alt="The Box Model" id="boxmodel"></div>
-        <div class="col-6">
+        <div class="six columns">
           <p>
           The Box Model is a design concept that demonstrates what is within and outside of the box that surrounds every HTML element located on a page. Within this model, it show the content, surrounded by the padding, then border, and finally the margin. This model is helpful when trying to understand how space works in between elements.
         </p>

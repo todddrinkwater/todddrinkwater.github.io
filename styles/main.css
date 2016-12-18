@@ -3,13 +3,12 @@ body {
   cursor: pointer;
   margin: 0;
   padding: 0;
-  font-size: 3rem;
 }
 
 
 /* ---------------------- Nav Bar ---------------------- */
 
-ul {
+header ul {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -100,6 +99,42 @@ ul {
 .desktop-only {
   display: none;
 }
+
+.blog-contents {
+  text-align: center;
+}
+
+.blog-contents li {
+  list-style-type: none;
+}
+
+.container .row {
+  padding: 5% 0;
+}
+/* --------------------- Images  ------------------------- */
+
+#xero {
+  width: 90%;
+  padding: 0 5% 0 5%;
+}
+
+#robot {
+  width: 90%;
+  padding: 0 5% 0 5%;
+}
+
+#apple {
+  width: 90%;
+  padding: 0 5% 0 5%;
+}
+
+#boxmodel {
+  width: 90%;
+  padding: 0 5% 0 5%;
+
+}
+
+
 
 /* --------------------- Footer  ------------------------- */
 
@@ -196,6 +231,8 @@ footer {
     text-decoration: none;
   }
 
+/* --------------------- Desktop Background Image  ------------------------- */
+
   .bg {
 
 display: block;
@@ -216,15 +253,4 @@ display: block;
 /***** STACK ORDER - SET UP IMG BEHIND TEXT   ***/
 
 	z-index: -1;
-}
-
-footer {
-    clear: both;
-    position: relative;
-    z-index: 10;
-    height: 3em;
-    margin-top: -3em;
-}
-
-
 }
