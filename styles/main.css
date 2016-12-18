@@ -1,3 +1,9 @@
+
+body {
+  cursor: pointer;
+}
+
+
 /* ---------------------- Nav Bar ---------------------- */
 
 ul {
@@ -7,7 +13,7 @@ ul {
 }
 
 #mobile-navbar {
-  background: grey;
+  background: #585454;
 }
 
 #mobile-navbar li {
@@ -15,27 +21,58 @@ ul {
   display: inline;
   float: left;
   text-align: center;
+  font-size: 2rem;
+  padding: 1rem;
 }
+
 
 
 /* ------------------- Drop Down Menu ------------------ */
 
 .dropdown {
+  text-decoration: none;
   position: relative;
+}
+
+.dropdown a:link {
+  color: white;
+  text-decoration: none;
+}
+
+.dropdown a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.home-button a:link {
+  color: white;
+  text-decoration: none;
+}
+
+.home-button a:visited {
+  color: white;
+  text-decoration: none;
 }
 
 .drop-nav {
   position: absolute;
   display: none;
-  background: blue;
+  background: #585454;
 }
 
+/*
 .drop-nav li {
-  border-bottom: 1px solid white;
-}
+  border-radius: 25%;
 
-.dropdown:hover .drop-nav {
+} */
+
+
+.dropdown:hover > .drop-nav {
     display: block;
+  }
+
+.dropnav {
+  cursor: pointer;
 }
 
 /* --------------------- 12 Column Grid System  ------------------------- */
