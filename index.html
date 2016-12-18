@@ -3,28 +3,52 @@
   <head>
     <title>Todd Drinkwater | Web Developer</title>
     <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width,height=device-height initial-scale=1"> -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" rel="stylesheet" type="text/css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" rel="stylesheet" type="text/css">
     <link href="styles/main.css" rel="stylesheet" type="text/css">
   </head>
   <body>
 
-    <body background>
+    <body>
+
+      <div id="wrapper">
+
         <header>
-          <nav class="nav">
-            <ul>
-              <li><a href="index.html" title="homepage"><h1>todddrinkwater</h1></a></li>
-              <li><a href="projects.html" title="projects">projects / </a></li>
-              <li><a href="blogs.html" title="blogs">blogs / </a></li>
+          <nav class="row">
+            <ul class="four columns">
+              <li><a href="index.html" title="homepage" id="home-button">todddrinkwater</a></li>
+            </ul>
+            <ul class="two columns" id="menu-options">
+              <li><a href="projects.html" title="projects">projects</a></li>
+            </ul>
+            <ul class="two columns" id="menu-options">
+              <li><a href="blogs.html" title="blogs">blogs</a></li>
+              </ul>
+            <ul class="two columns" id="menu-options">
               <li><a href="about.html" title="about">about</a></li>
+            </ul>
             </ul>
           </nav>
         </header>
 
 
+        <div class="mobile-only">
+          <ul id="mobile-list">
+            <li><a href="projects.html" title="Projects">projects</a></li>
+            <li><a href="blogs.html" title="Blogs">blogs</a></li>
+            <li><a href="about.html" title="About">about</a></li>
+          </ul>
 
-  <footer>
-    <div>
+          </ul>
+        </div>
+
+
+
+
+
+  <footer class="container">
+    <div class="row">
       <ul>
         <li><a href="https://twitter.com/todddrinkwater1" class="twitter-follow-button" data-show-count="false" title="Twitter">Twitter</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></li>
         <li><a href="https://www.facebook.com" title="Facebook">Facebook</a></li>
@@ -34,6 +58,8 @@
       </ul>
     </div>
   </footer>
+
+</div>
 
   </body>
 </html>
