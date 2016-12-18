@@ -1,6 +1,8 @@
 
 body {
   cursor: pointer;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -8,12 +10,13 @@ body {
 
 ul {
   list-style: none;
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
 }
 
 #mobile-navbar {
   background: #585454;
+  margin: 0;
 }
 
 #mobile-navbar li {
@@ -22,7 +25,8 @@ ul {
   float: left;
   text-align: center;
   font-size: 2rem;
-  padding: 1rem;
+  padding: 0;
+  margin: 0;
 }
 
 
@@ -32,6 +36,14 @@ ul {
 .dropdown {
   text-decoration: none;
   position: relative;
+  margin-bottom: 0;
+}
+
+.drop-nav {
+  position: absolute;
+  display: none;
+  background: #585454;
+  border-radius: 5%;
 }
 
 .dropdown a:link {
@@ -54,11 +66,7 @@ ul {
   text-decoration: none;
 }
 
-.drop-nav {
-  position: absolute;
-  display: none;
-  background: #585454;
-}
+
 
 /*
 .drop-nav li {
@@ -74,6 +82,20 @@ ul {
 .dropnav {
   cursor: pointer;
 }
+
+/* --------------------- Main Content Area  ------------------------- */
+
+.mobile-only {
+  margin-top: 5%;
+  text-align: center;
+}
+
+/* --------------------- Footer  ------------------------- */
+
+footer {
+  text-align: center;
+}
+
 
 /* --------------------- 12 Column Grid System  ------------------------- */
 
