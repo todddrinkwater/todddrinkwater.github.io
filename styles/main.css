@@ -215,7 +215,7 @@ footer {
   width: 100%;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 400px) {
 
 
   .mobile-only {
