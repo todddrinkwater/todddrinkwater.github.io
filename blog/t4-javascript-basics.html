@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Todd Drinkwater | Web Developer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" rel="stylesheet" type="text/css">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+
+    <header>
+      <!-- Mobile Only Content -->
+
+      <nav id="mobile-navbar">
+        <ul class="row">
+          <li class="dropdown col-3"><a href="#" title="Menu">| M |</a>
+            <ul class="drop-nav">
+              <li><a href="projects.html">projects</a></li>
+              <li><a href="blog-index.html">blogs</a></li>
+              <li><a href="about.html">about</a></li>
+            </ul>
+          <li  class="col-7 home-button"><a href="../index.html" title="Home">todddrinkwater</a></li>
+        </ul>
+      </nav>
+
+
+      <!-- Desktop Only Content -->
+
+      <nav id="desktop-navbar">
+        <ul class="row">
+              <li  class="five columns"><a href="../index.html" title="homepage" class="menu-button">todddrinkwater</a></li>
+              <li class="two columns"><a href="projects.html" title="projects" class="menu-button">projects</a></li>
+              <li class="two columns"><a href="blog-index.html" title="blogs" class="menu-button">blogs</a></li>
+              <li class="two columns"><a href="about.html" title="about" class="menu-button">about</a></li>
+        </ul>
+      </nav>
+    </header>
+
+<div class="container">
+  <div class="title">
+  <h1>Technical Blog</h1>
+  <h2><em>January 16, 2017</em></h2>
+  </div>
+
+<div class="container">
+  <h3>How does JavaScript compare to HTML and CSS?</h3>
+  <p>
+    While HTML is to do with the structure and content of a webpage, and CSS the styling, Javascript is to do with responsiveness. By incorporating Javascript into our websites, we can allow our webpages to respond to user input. In this sense, Javascript could be used such things as:
+  </p>
+  <ul>
+    <li>Performing Mathmatical calculations</li>
+    <li>Creating animations</li>
+    <li>Giving users feedback</li>
+    <li>Loading content into the webpage as the user requires it, or, even making it disappear.</li>
+  </ul>
+
+  <h3>The Anecdote of Control Flow Structures</h3>
+
+  <p>
+    Control Flow structures are used to control how your code will run under certain conditions, or for how long it will run until certain conditions are met. Everyday we are faced with making decisions that are affected by the surrounding environment and we have to adapt to these conditions in order to achieve our end goal.
+</p>
+<p>
+     Let's look at a game of Football as an example. Depending on what is happening in the game will affect a variety of things. One of these, is our player formation on the field. IF we compared this to an IF/ELSE statement, we might, IF our team is in possession of the ball, have players  move away from the opposition and into space. This would allow them to be in a good position to recieve the ball. ELSE however, if our team was not in possession of the ball, then we would want players to mark up in order to put pressure on the opposition. This could be made even more complex if we wanted, by applying more conditional statements (as strategies) to get the team to respond differently depending where they are on the pitch.
+  </p>
+  <p>
+    Another way we could apply Control Flow structures to Football is through looping. Let's look at the WHILE loop for example. A while loop is a is a function that will continue run a block of code until a certain condition is met. A football coach might decide that WHILE his/her team is up by 2 goals, the team will apply a more aggressive attacking formation. However, if the other team comes within 2 goals, and the condition is met, then the team will fall back into a more defensive structure.
+  </p>
+  <h3>Explain the difference between accessing data from arrays and objects.</h3>
+  <p>
+    Objects and arrays in many ways can be quite similar. However, when accessing data there are a few key differences. First objects can be accessed using either dot notation (e.g. Object.property) or bracket notation (e.g. Object[property]). With arrays however, we are  able to access the index property keys. This means that instead of naming the property within the object, we can use the array index numbers to pull out specific properties/elements. We can also apply the <em>.length</em> property when accessing array data and use this for such things as printing a whole array using loops.
+  </p>
+  <h3>What are functions and the how are the useful?</h3>
+  <p>Functions are blocks of code in Javascript that can perform tasks and calculations and then be reused when called upon by the associated identifier. The main benefit of using functions is that they can save us time when writing code. Creating some blocks of code can require a lot of time, so using functions is an efficient way to allow us to reuse that code simply by calling it.</p>
+</div>
+
+  <footer><h6>Todd Drinkwater. 2016.</h6></footer>
+
+  </body>
+</html>
