@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Todd Drinkwater | Web Developer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" rel="stylesheet" type="text/css">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+
+    <header>
+      <!-- Mobile Only Content -->
+
+      <nav id="mobile-navbar">
+        <ul class="row">
+          <li class="dropdown col-3"><a href="#" title="Menu">| M |</a>
+            <ul class="drop-nav">
+              <li><a href="projects.html">projects</a></li>
+              <li><a href="blog-index.html">blogs</a></li>
+              <li><a href="about.html">about</a></li>
+            </ul>
+          <li  class="col-7 home-button"><a href="../index.html" title="Home">todddrinkwater</a></li>
+        </ul>
+      </nav>
+
+
+      <!-- Desktop Only Content -->
+
+      <nav id="desktop-navbar">
+        <ul class="row">
+              <li  class="five columns"><a href="../index.html" title="homepage" class="menu-button">todddrinkwater</a></li>
+              <li class="two columns"><a href="projects.html" title="projects" class="menu-button">projects</a></li>
+              <li class="two columns"><a href="blog-index.html" title="blogs" class="menu-button">blogs</a></li>
+              <li class="two columns"><a href="about.html" title="about" class="menu-button">about</a></li>
+        </ul>
+      </nav>
+    </header>
+
+<div class="container">
+  <div class="title">
+  <h1>Cultural Blog: Self Confidence</h1>
+  <h2><em>January 21, 2017</em></h2>
+  </div>
+
+<div class="container">
+  <h3>That time I got blocked on a simple problem...</h3>
+  <p>
+    Simple code that doesn't work can probably be the most frustrating. Because when you realise it doesn't work, and you investigate further, you get frustrated by the fact that it should work. It looks so simple! One example of this was working on my portfolio website designing a drop-down menu. The first thing I did was look to my styling because the code for my website styling was the newest and most unfamiliar code I had learnt. I ended up looking over this for a couple of hours. Even running the CSS through a validator and trying new ways to code the drop-down menu to get it to work. My main fault was that I had allowed myself to get blocked without reaching out for help from others. Eventually, I had my flatmate look at my code. The first thing he did was look at the HTML (the coding language that provides the foundations of a webpage) and quickly noticed I'd forgot to close a tag (something that defines what to do with the information you put on the page). It was a five-minute fix, yet I'd wasted over a day trying to solve this problem! In the end, I decided when blocked, one of the easiest things I could've done was to have someone else look over my code. An extra set of eyes gives an extra perspective, and usually one that isn't at the same level of frustration that you are.
+  </p>
+  <h3>... and how I solved a problem in a elegant way.</h3>
+  <p>
+    I've started to treat these entries more and more like a diary. Oh, how I miss a diary's sweet scented pages.  Anyway, a problem I'm particularly more proud of solving was designing a checkerboard design made of hashes and  spaces that could adapt its grid size accordingly to any number I provided. This I considered a significant  challenge for me in the sense of turning text into code. So the first approach I used was pseudocode. This is  essentially writing how you program will work, step-by-step, in plain English. It went a little (exactly) like this:
+  </p>
+  <ul>
+    <li>Define the grid size</li>
+    <li>Define variable to contain board data</li>
+    <li>Create a loop that will create the board, block by block
+    <ul>
+      <li>The first loop to determine control the number of rows determined by gridsize variable, starting at 0</li>
+        <li>The second inside loop to start at 0 also and continue until number is same as the gridsize
+          <li>Inside the loop an if statement will determine if a number is even or not. If it is, print a space, else print a #.
+        </li>
+        <li>
+          When the condition of the previous loop is met. Create a new line, and run through loop functions again.
+        </li>
+      </li>
+    </ul>
+      <li>Print to console!</li>
+  </ul>
+  <p>
+    After writing this in pseudocode, it helped me to gain a better understanding of how to structure my code and what features of the Javascript language I needed to incorporate into my code. By going into this challenge, it also meant my thoughts were more structured. Without this approach on a complex problem can be like building a skyscraper in the dark armed with only a flashlight to see with.
+  </p>
+  <h3>What strategies am I most confident in using to problem solve?</h3>
+  <ul>
+    <li>
+      Pseudocode
+  </li>
+  <p>As outlined in the paragraphs above, this is one of my favourite techniques to use and I always have a pen and pad close by. An architect will lay out plans before a building is constructed and this is the same concept to creating code that is structually sound.</p>
+  <li>
+ Trying something
+ </li>
+ <p>Better than nothing! Having a tinker with your code is a great way to learn how code functions. When lessons haven't given the clearest instructions, changing different variables and lines of code to see what happens is one of the best ways to truly understand how your code functions in a practical manner.</p>
+ <li>
+ Rubber ducky method
+ </li>
+ <p>Personally I haven't talked to a rubber ducky, or stuffed animal to discuss my code yet. Sometimes I talk it over in my head, but personally I find it more visually appealing to write it down in pseudocode. This helps me to better keep track of the strucutre.</p>
+ <li>
+   Reading error messages
+ </li>
+ <p>
+   Error messages are often a big help for getting feedback on what your console is not happy with. Often it points out things such as unexpected semicolons or variables that haven't been properly defined. I have found this effective for highlighting more major or obvious problems with my code.
+ </p>
+ <li>
+   Console.logging
+ </li>
+ <p>
+   Great for testing functions to see if they are returning the values that I expect.
+ </p>
+ <li>
+ Googling
+ </li>
+ <p>
+   One of the best methods for problem solving I could recommend. Not only can it put you in the direction of a quick answer, it can also point your towards resources such as Stack Overflow, W3 Schools, or Mozilla Developer Network that can help you to better understand the code you are trying to use to help prevent similar problems from occuring in the future.
+ </p>
+ <li>
+   Asking your peers for help
+ </li>
+ <p>
+   Solved a problem this week. Solved a problem last week... and probably the one before that. Having a fresh pair of eyes that can often look at the same code with a different perspective is a great way to debug quickly, especially when you have become frustrated enough that you begin to overlook the basics.
+ </p>
+ <li>
+ Asking coaches for help
+ </li>
+ <p>
+   Have tried once, but ended up getting help from a friend before the reply. Will try this once other options are exhausted (e.g. asking online, cohort, etc.)
+ </p>
+ <li>
+ Improving your process with reflection
+ </li>
+<p>
+  Reflection has proven to be an extremely effective way to improve practice. This is familar to me from my time in teaching. However, it often gets sidelined when I become busy. For it to be effective, it must be ongoing and frequent. Writing down challenges as the occur is also a way to provide stimuli for when it comes to having to reflect, as I often find I quickly forget my challenges and how I overcame them.
+</p>
+
+<h3>So. What do these do?</h3>
+<li>.map()</li>
+  <p>
+    .map() is a method that creates a new array from the results of an old array provided by a function. For instance, it will allow us to add three to every element in a number array and create a new array filled will these results.
+  </p>
+<li>.filter()</li>
+  <p>
+    The .filter() method is used to create a new array of all elements that pass the test provided by a function. For instance .filter() could be used with a function to determine whether certain numbers are even and then create new array containing only those even numbers.
+  </p>
+<li>.reduce()</li>
+  <p>
+    .reduce() is used to accumulate the value of an array and place them into a single value. For example, if an array contains the values 1, 2 and 3, .reduce() could be used with a function to add these together into a total sum of 6 (1 + 2 + 3 = 6).
+  </p>
+</div>
+
+  <footer><h6>Todd Drinkwater. 2016.</h6></footer>
+
+  </body>
+</html>
