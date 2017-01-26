@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Todd Drinkwater | Web Developer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" rel="stylesheet" type="text/css">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+
+    <header>
+      <!-- Mobile Only Content -->
+
+      <nav id="mobile-navbar">
+        <ul class="row">
+          <li class="dropdown col-3"><a href="#" title="Menu">| M |</a>
+            <ul class="drop-nav">
+              <li><a href="projects.html">projects</a></li>
+              <li><a href="blog-index.html">blogs</a></li>
+              <li><a href="about.html">about</a></li>
+            </ul>
+          <li  class="col-7 home-button"><a href="../index.html" title="Home">todddrinkwater</a></li>
+        </ul>
+      </nav>
+
+
+      <!-- Desktop Only Content -->
+
+      <nav id="desktop-navbar">
+        <ul class="row">
+              <li  class="five columns"><a href="../index.html" title="homepage" class="menu-button">todddrinkwater</a></li>
+              <li class="two columns"><a href="projects.html" title="projects" class="menu-button">projects</a></li>
+              <li class="two columns"><a href="blog-index.html" title="blogs" class="menu-button">blogs</a></li>
+              <li class="two columns"><a href="about.html" title="about" class="menu-button">about</a></li>
+        </ul>
+      </nav>
+    </header>
+
+<div class="container">
+  <div class="title">
+  <h1>Tech Blog: Brackets, braces, and more...</h1>
+  <h2><em>January 27, 2017</em></h2>
+  </div>
+
+<div class="container">
+  <h3>Explain the meaning of...</h3>
+  <h4>Parentheses ( )</h4>
+  <p>
+   Parentheses are used for three main things. These are:
+   <ul>
+     <li>To contain parameters within functions</li>
+     <li>To contain conditional statements</li>
+     <li>To group items together when applying the order of operations.</li>
+   </ul>
+ </p>
+   <p>
+   In Functions, brackets hold parameters inside of them. These parameters can then be replaced with arguments when the function is called and the function will implement this into the course of actions it has been programmed to take. By having these parameters, it makes the function more reusable as it has the option of passing different arguments through it everytime it is called.
+  </p>
+  <p>
+    With conditional statements (such as the <em>if</em> statement), the statements that are placed between the parentheses are evaluate to see whether they return true or not. <em>If</em> they do return a true value, then the code following inside the braces will run.
+  </p>
+  <p>
+    Following the Order of Operations, statements or calculations that are placed within the brackets will be calculated before anything else. For example, in the statement <em>a * (b + c)</em>, b and c will be calculated first before multiplying by a. The logic of the Order of Operation is (working from left to right):
+  </p>
+    <ol>
+      <li>Parentheses</li>
+      <li>Exponents</li>
+      <li>Multiplication and Division</li>
+      <li>Addition and Subtraction</li>
+    </ol>
+<p>
+    So by placing b and c inside brackets, we were able to move b + c to the front of the queue.
+  </p>
+  <h4>Brackets [ ]</h4>
+  <p>
+   Braces are most often used to contain data from arrays and to also access that data using zero-based indexing. For instance, an array defined as <em>myArr</em> may contain the data <em>[a, b, c]</em> (e.g. var myArr = [a, b, c]). If I wanted to access <em>a</em> from the array I would use the statement <em>myArr[0]</em>
+  </p>
+  <h4>Braces { }</h4>
+  <p>
+   Braces are used within code to either define object literals or enclose blocks of code for such things as functions or loops. Within object literals, you find properties and values that have been defined. However, within functions or loops, you will find a set of code, giving instructions for what to do when that particular function is called or loop is run.
+  </p>
+  <h4>Quotation Marks " " and ' '</h4>
+  <p>
+    Quotation marks are used within Javascript to define something as a string. Numbers can also be defined as strings if placed between quotation marks. Whether you choose to use single or double quotation marks is of personal preference to the programmer. One important thing to remember when using quotation marks within a string, to place a \ before each quotation mark ( e.g. alert("You\'re welcome!") ). This allows for the console to distinguish between the quotation marks used to define a string and the quotation marks for the user to see on the webpage.
+  </p>
+
+</div>
+
+  <footer><h6>Todd Drinkwater. 2016.</h6></footer>
+
+  </body>
+</html>
