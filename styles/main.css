@@ -251,6 +251,8 @@ footer {
   }
 
 
+
+
 /* --------------------- Desktop Background Image  ------------------------- */
 
   .bg {
@@ -274,3 +276,18 @@ display: block;
 
 	z-index: -1;
 }
+
+
+
+/**
+ * Footer Styles
+ */
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+} }
