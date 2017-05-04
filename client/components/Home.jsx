@@ -1,6 +1,6 @@
 import React from 'react'
 
-class Background extends React.Component {
+class Home extends React.Component {
   render () {
     return (
       <div className="background">
@@ -10,4 +10,4 @@ class Background extends React.Component {
   }
 }
 
-export default Background
+export default Home

@@ -1,3 +1,7 @@
+* {
+  border: 1px solid black;
+}
+
 /* --- NavBar --- */
 
 .navBar {
@@ -26,6 +30,10 @@
     text-align: center;
     padding: 0.5em 1em;
     text-decoration: none;
+}
+
+.navBar li a:hover{
+    color: #f58787;
 }
 
 .navBar .navLeft {
@@ -67,3 +75,31 @@
     z-index: -1;
 
 }
+
+/* --- Portfolio --- */
+
+.portfolio {
+  margin: 5em auto 1em;
+  width: 90%;
+}
+
+.portfolioHeader {
+  text-align: center;
+}
+
+.portfolioItemDetails {
+  display: -webkit-flex; /* Safari */
+  display: flex;
+}
+
+.portfolioItemImage {
+  }
+
+  .portfolioItemImage img{
+      width: 20em;
+      margin: auto;
+    }
+
+ .portfolioItemDesc {
+
+ }
