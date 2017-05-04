@@ -1,13 +1,13 @@
 import React from 'react'
 
-import AddWord from '../containers/AddWord'
-import Words from '../containers/Words'
+import NavBar from './NavBar'
+import Background from './Background'
 
 function App (props) {
   return (
     <div className='app-container'>
-      <Words />
-      <AddWord />
+      <NavBar />
+      <Background />
     </div>
   )
 }

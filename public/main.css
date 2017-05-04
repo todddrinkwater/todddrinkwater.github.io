@@ -1,12 +1,69 @@
-.dot {
-  width: 2rem;
-  height: 2rem;
-  border: 1px #ccc solid;
-  border-radius: 50%;
+/* --- NavBar --- */
+
+.navBar {
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
 }
 
-button {
-  width: 2rem;
-  height: 2rem;
-  border-radius: 50%;
+.navBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navBar li {
+    float: left;
+}
+
+.navBar li a {
+    display: block;
+    color: white;
+    font-size: 1.3em;
+    text-align: center;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+.navBar .navLeft {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navBar  .navRight {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* --- Background Image --- */
+
+.backgroundImage {
+  display: block;
+
+  /* Set rules to fill background */
+    min-width: 100%;
+    min-height: 100%;
+
+  /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+
+  /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+
+  /***** STACK ORDER - SET UP IMG BEHIND TEXT   ***/
+
+    z-index: -1;
+
 }
