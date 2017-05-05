@@ -1,6 +1,12 @@
-* {
+/** {
   border: 1px solid black;
+}*/
+
+body {
+  margin: 0;
 }
+
+
 
 /* --- NavBar --- */
 
@@ -92,14 +98,76 @@
   display: flex;
 }
 
-.portfolioItemImage {
+.portfolioItemImage img{
+    width: 20em;
+    margin: auto;
   }
 
-  .portfolioItemImage img{
-      width: 20em;
-      margin: auto;
-    }
 
- .portfolioItemDesc {
+/* --- About Page --- */
 
- }
+.about {
+  margin-top: 4em;
+}
+
+.about-header {
+  padding: 2%;
+  width: 96%;
+  background-color: #EDEEEF;
+}
+
+.about-passions {
+  padding: 2%;
+}
+
+.passionItemDetails {
+  display: -webkit-flex; /* Safari */
+  display: flex;
+}
+
+.passionItemImage img{
+    width: 20em;
+    padding: 1em;
+  }
+
+  .about-photos img {
+    width: 33.33%;
+  }
+
+  .about-aFewMoreThings {
+    height: 16em;
+  }
+
+  .about-contact-container {
+    position: relative;
+  }
+
+
+  .about-contact-container img {
+    width: 100%;
+    z-index: -100;
+  }
+
+  .about-contact-container h1 {
+    z-index: 100;
+    color: white;
+    position: absolute;
+    top: 40%;
+    right: 33%;
+}
+
+.about-contact-container div {
+  font-size: 1em;
+  z-index: 100;
+  color: white;
+  position: absolute;
+  top: 60%;
+  right: 50%;
+  border: 1px solid white;
+  padding: 0.2em
+}
+
+.about-contact-container a {
+  text-decoration: none;
+  color: white
+}
