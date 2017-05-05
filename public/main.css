@@ -1,12 +1,173 @@
-.dot {
-  width: 2rem;
-  height: 2rem;
-  border: 1px #ccc solid;
-  border-radius: 50%;
+/** {
+  border: 1px solid black;
+}*/
+
+body {
+  margin: 0;
 }
 
-button {
-  width: 2rem;
-  height: 2rem;
-  border-radius: 50%;
+
+
+/* --- NavBar --- */
+
+.navBar {
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+}
+
+.navBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navBar li {
+    float: left;
+}
+
+.navBar li a {
+    display: block;
+    color: white;
+    font-size: 1.3em;
+    text-align: center;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+.navBar li a:hover{
+    color: #f58787;
+}
+
+.navBar .navLeft {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navBar  .navRight {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* --- Background Image --- */
+
+.backgroundImage {
+  display: block;
+
+  /* Set rules to fill background */
+    min-width: 100%;
+    min-height: 100%;
+
+  /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+
+  /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+
+  /***** STACK ORDER - SET UP IMG BEHIND TEXT   ***/
+
+    z-index: -1;
+
+}
+
+/* --- Portfolio --- */
+
+.portfolio {
+  margin: 5em auto 1em;
+  width: 90%;
+}
+
+.portfolioHeader {
+  text-align: center;
+}
+
+.portfolioItemDetails {
+  display: -webkit-flex; /* Safari */
+  display: flex;
+}
+
+.portfolioItemImage img{
+    width: 20em;
+    margin: auto;
+  }
+
+
+/* --- About Page --- */
+
+.about {
+  margin-top: 4em;
+}
+
+.about-header {
+  padding: 2%;
+  width: 96%;
+  background-color: #EDEEEF;
+}
+
+.about-passions {
+  padding: 2%;
+}
+
+.passionItemDetails {
+  display: -webkit-flex; /* Safari */
+  display: flex;
+}
+
+.passionItemImage img{
+    width: 20em;
+    padding: 1em;
+  }
+
+  .about-photos img {
+    width: 33.33%;
+  }
+
+  .about-aFewMoreThings {
+    height: 16em;
+  }
+
+  .about-contact-container {
+    position: relative;
+  }
+
+
+  .about-contact-container img {
+    width: 100%;
+    z-index: -100;
+  }
+
+  .about-contact-container h1 {
+    z-index: 100;
+    color: white;
+    position: absolute;
+    top: 40%;
+    right: 33%;
+}
+
+.about-contact-container div {
+  font-size: 1em;
+  z-index: 100;
+  color: white;
+  position: absolute;
+  top: 60%;
+  right: 50%;
+  border: 1px solid white;
+  padding: 0.2em
+}
+
+.about-contact-container a {
+  text-decoration: none;
+  color: white
 }
