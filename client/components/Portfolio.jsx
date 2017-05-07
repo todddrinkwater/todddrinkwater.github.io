@@ -9,7 +9,7 @@ class Portfolio extends React.Component {
           <div className="portfolioItem">
             <div className="portfolioItemTitle"><h1>Community Sharing</h1></div>
             <div className="portfolioItemDetails">
-              <div className="portfolioItemImage"><img   src={"/img/community-sharing-home.png"} /></div>
+              <div className="portfolioItemImage"><img src={"/img/community-sharing-home.png"} /></div>
               <div className="portfolioItemDesc">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Nulla porttitor accumsan tincidunt. Donec rutrum congue leo eget malesuada. Proin eget tortor risus. Vivamus suscipit tortor eget felis porttitor volutpat. Sed porttitor lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Curabitur aliquet quam id dui posuere blandit. Pellentesque in ipsum id orci porta dapibus. Cras ultricies ligula sed magna dictum porta.</div>
             </div>
           </div>

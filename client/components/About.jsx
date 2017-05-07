@@ -10,7 +10,11 @@ class About extends React.Component {
         <div className="about-header">
           <h1>about me</h1>
           <p>
-            Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Pellentesque in ipsum id orci porta dapibus. Cras ultricies ligula sed magna dictum porta. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Pellentesque in ipsum id orci porta dapibus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Nulla porttitor accumsan tincidunt. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Born and bred in Whangarei. I moved to Hamilton, to study and teach, London, to travel and teach, back to Hamilton... and most recently to windy, but otherwise incredible, Wellington.
+
+            Developing a passion for coding in High School, I often considered the 'what if' for a number of years before eventually taking a leap of faith into the tech industry.
+
+            I have recently completed over nine hundred hours of learning at Ensprial Dev Academy and am starting out as a junior web developer, fresh out of the oven.
           </p>
         </div>
 
@@ -20,7 +24,13 @@ class About extends React.Component {
           <div>
             <h1>passions</h1>
             <p>
-              Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Pellentesque in ipsum id orci porta dapibus. Cras ultricies ligula sed magna dictum porta. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Pellentesque in ipsum id orci porta dapibus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Nulla porttitor accumsan tincidunt. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+              <ul>
+                <li>Making Music</li>
+                <li>Attempting to take half-decent photos</li>
+                <li>Honey</li>
+                <li>Exploring</li>
+                <li>Outdoors and Sports</li>
+              </ul>
             </p>
           </div>
           <div className="passionItemImage">
@@ -30,16 +40,25 @@ class About extends React.Component {
         </div>
 
         <div className="about-photos">
-          <img src={"/img/snowboarding.png"} />
-          <img src={"/img/snowboarding.png"} />
-          <img src={"/img/snowboarding.png"} />
-          <img src={"/img/snowboarding.png"} />
-          <img src={"/img/snowboarding.png"} />
-          <img src={"/img/snowboarding.png"} />
+          <div className="about-photos-flex">
+            <div className="about-crop"><img src={"/img/about1.jpg"} /></div>
+            <div className="about-crop"><img src={"/img/about2.jpg"} /></div>
+            <div className="about-crop"><img src={"/img/about3.jpg"} /></div>
+          </div>
+          <div className="about-photos-flex">
+            <div className="about-crop"><img src={"/img/about4.jpg"} /></div>
+            <div className="about-crop"><img src={"/img/about5.jpg"} /></div>
+            <div className="about-crop"><img src={"/img/about6.jpg"} /></div>
+          </div>
         </div>
 
-        <div className="about-aFewMoreThings">
-          Pellentesque in ipsum id orci porta dapibus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Nulla porttitor accumsan tincidunt. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+        <div className="about-technologies">
+          <h1>Technologies and approaches I utilize:</h1>
+          <div>
+            HTML  :  CSS  :  JavaScript ES6  : NodeJS : Test Driven Development  : React  :  Redux  : HandleBars : Express : Nodemon : React Router  :  Webpack  :  Knex  :  Sqlite3  :  BodyParser  :  Signature_Pad  :  Babel  :  API's
+          </div>
+          <h1>New things I am currently learning:</h1>
+          <div>Python: Django : MxGraph</div>
         </div>
 
         <div className="about-contact-container">

@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  padding-top: 5em;
 }
 
 
@@ -15,6 +16,7 @@ body {
   left: 0;
   width: 100%;
   position: fixed;
+  font-family: 'Droid Serif', serif;
 }
 
 .navBar ul {
@@ -85,17 +87,27 @@ body {
 /* --- Portfolio --- */
 
 .portfolio {
-  margin: 5em auto 1em;
+  margin: 0 auto 1em;
   width: 90%;
 }
 
 .portfolioHeader {
   text-align: center;
+  font-family: 'Droid Serif', serif;
 }
 
 .portfolioItemDetails {
   display: -webkit-flex; /* Safari */
   display: flex;
+}
+
+.portfolioItemTitle {
+  font-family: 'Droid Serif', serif;
+}
+
+.portfolioItemDesc {
+  font-family: 'Open Sans', sans-serif;
+  padding: 2em;
 }
 
 .portfolioItemImage img{
@@ -106,54 +118,94 @@ body {
 
 /* --- About Page --- */
 
-.about {
-  margin-top: 4em;
+.about-header {
+  margin-top: -0.5em;
+  padding: 2%;
+  width: 98%;
+  background-color: #EDEEEF;
 }
 
-.about-header {
-  padding: 2%;
-  width: 96%;
-  background-color: #EDEEEF;
+.about-header h1 {
+  font-family: 'Droid Serif', serif;
+  font-size: 2em;
+  padding: 0 0.8em 0.5em;
+}
+
+.about-header p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  padding: 0 2em 0.5em;
 }
 
 .about-passions {
   padding: 2%;
 }
 
+
+.about-passions h1 {
+  font-family: 'Droid Serif', serif;
+}
+
+.about-passions p {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .passionItemDetails {
   display: -webkit-flex; /* Safari */
   display: flex;
+  margin: auto;
+  width: 70%;
 }
 
-.passionItemImage img{
+.passionItemDetails h1 {
+  font-size: 2em;
+}
+
+.passionItemDetails ul li {
+  font-size: 1.2em;
+}
+
+.passionItemImage img {
     width: 20em;
     padding: 1em;
+    margin-left: 50%;
+    right: 1em;
   }
 
-  .about-photos img {
-    width: 33.33%;
-  }
 
-  .about-aFewMoreThings {
+  .about-technologies {
+    padding: 2em 0;
     height: 16em;
+    width: 75%;
+    margin: auto;
+    text-align: center;
   }
 
-  .about-contact-container {
-    position: relative;
-  }
+.about-technologies h1 {
+  font-family: 'Droid Serif', serif;
+}
+
+.about-technologies div {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.about-contact-container {
+  position: relative;
+}
 
 
-  .about-contact-container img {
-    width: 100%;
-    z-index: -100;
-  }
+.about-contact-container img {
+  width: 100%;
+  z-index: -100;
+}
 
-  .about-contact-container h1 {
-    z-index: 100;
-    color: white;
-    position: absolute;
-    top: 40%;
-    right: 33%;
+.about-contact-container h1 {
+  z-index: 100;
+  color: white;
+  position: absolute;
+  top: 40%;
+  right: 33%;
+  font-family: 'Droid Serif', serif;
 }
 
 .about-contact-container div {
@@ -170,4 +222,50 @@ body {
 .about-contact-container a {
   text-decoration: none;
   color: white
+}
+
+.about-crop {
+    width: 33%;
+    height: auto;
+    overflow: hidden;
+    padding: 0;
+    margin: -0.4% auto;
+}
+
+.about-crop img {
+  padding: 0;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.about-photos-flex {
+  display: flex;
+}
+
+/* --- Contact ---- */
+
+.contact {
+  margin: 5em auto 2em;
+  width: 80%;
+}
+
+.contact ul li {
+  list-style-type: none;
+}
+
+.contact h1 {
+  font-family: 'Droid Serif', serif;
+}
+
+.contact h2 {
+  font-family: 'Droid Serif', serif;
+}
+
+.contact p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.contact ul li {
+  font-family: 'Open Sans', sans-serif;
+  vertical-align: middle;
 }
