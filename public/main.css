@@ -92,6 +92,7 @@ body {
 }
 
 .portfolioHeader {
+  margin-top: 1em;
   text-align: center;
   font-family: 'Droid Serif', serif;
 }
@@ -107,6 +108,7 @@ body {
 
 .portfolioItemDesc {
   font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
   padding: 2em;
 }
 
@@ -128,17 +130,28 @@ body {
 .about-header h1 {
   font-family: 'Droid Serif', serif;
   font-size: 2em;
-  padding: 0 0.8em 0.5em;
+  padding: 0 2em 0.5em;
 }
 
 .about-header p {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
-  padding: 0 2em 0.5em;
+  text-align: justify;
+  padding: 0 4em 0.5em;
+}
+
+.about-header hr {
+  margin-top: -2em;
+  width: 80%
 }
 
 .about-passions {
-  padding: 2%;
+  padding: 5% 2% 5%;
+}
+
+.about-passions hr {
+  margin-top: -1em;
+  width: 80%
 }
 
 
@@ -162,7 +175,8 @@ body {
 }
 
 .passionItemDetails ul li {
-  font-size: 1.2em;
+  font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .passionItemImage img {
@@ -170,27 +184,34 @@ body {
     padding: 1em;
     margin-left: 50%;
     right: 1em;
+    border-radius: 20%;
+    clear: both;
   }
 
 
-  .about-technologies {
-    padding: 2em 0;
-    height: 16em;
-    width: 75%;
-    margin: auto;
-    text-align: center;
-  }
+.about-technologies {
+  padding: 2em 0;
+  height: 16em;
+  width: 75%;
+  margin: auto;
+  text-align: center;
+}
 
 .about-technologies h1 {
   font-family: 'Droid Serif', serif;
+  margin-bottom: 0.5em;
 }
 
 .about-technologies div {
   font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+  margin-bottom: 3em;
 }
 
 .about-contact-container {
   position: relative;
+  margin-top: 2em;
+  z-index: -100;
 }
 
 
@@ -203,20 +224,27 @@ body {
   z-index: 100;
   color: white;
   position: absolute;
+  width: 20%;
   top: 40%;
-  right: 33%;
+  left: 45%;
+  margin: 0;
   font-family: 'Droid Serif', serif;
+  font-size: 2em;
+
 }
 
-.about-contact-container div {
+.about-contact-container a {
   font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
   z-index: 100;
   color: white;
   position: absolute;
+  width: 5%;
+  text-align: center;
   top: 60%;
-  right: 50%;
+  left: 48%;
   border: 1px solid white;
-  padding: 0.2em
+  padding: 0.4em
 }
 
 .about-contact-container a {
@@ -225,7 +253,7 @@ body {
 }
 
 .about-crop {
-    width: 33%;
+    width: 33.33%;
     height: auto;
     overflow: hidden;
     padding: 0;

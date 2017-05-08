@@ -10,7 +10,9 @@ class Portfolio extends React.Component {
             <div className="portfolioItemTitle"><h1>Community Sharing</h1></div>
             <div className="portfolioItemDetails">
               <div className="portfolioItemImage"><img src={"/img/community-sharing-home.png"} /></div>
-              <div className="portfolioItemDesc">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Nulla porttitor accumsan tincidunt. Donec rutrum congue leo eget malesuada. Proin eget tortor risus. Vivamus suscipit tortor eget felis porttitor volutpat. Sed porttitor lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Curabitur aliquet quam id dui posuere blandit. Pellentesque in ipsum id orci porta dapibus. Cras ultricies ligula sed magna dictum porta.</div>
+              <div className="portfolioItemDesc">
+                Community Sharing was an app designed by my team in our final week of Enspial Dev Academy BootCamp. It uses Javascript on both the front and back-end, and takes use of such frameworks and modules as React, Redux, Express, SuperAgent, and Knex. The main aim of our application was to build a product that could allow residents within Wellington to lend items and borrow items from each. The founding ideas behind this was to combat climate change and consumerism by buying less and sharing more.
+              </div>
             </div>
           </div>
 
@@ -18,7 +20,9 @@ class Portfolio extends React.Component {
             <div className="portfolioItemTitle"><h1>Sign Here</h1></div>
             <div className="portfolioItemDetails">
               <div className="portfolioItemImage"><img   src={"/img/sign-here-home.png"} /></div>
-              <div className="portfolioItemDesc">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Nulla porttitor accumsan tincidunt. Donec rutrum congue leo eget malesuada. Proin eget tortor risus. Vivamus suscipit tortor eget felis porttitor volutpat. Sed porttitor lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Curabitur aliquet quam id dui posuere blandit. Pellentesque in ipsum id orci porta dapibus. Cras ultricies ligula sed magna dictum porta.</div>
+              <div className="portfolioItemDesc">
+                SignHere is a personal project that is currently in progress. The aim of the application is to  eliminate the need for permission slips in the school setting. Permission Slips used to cost my school $75+ everytime I would print a set for a year level based trip, it caused more waste, and students would often lose them. This project is built using HTML5, CSS3, and Javascript. The key frameworks and modules are: React, Redux, Express, SuperAgent, Knex, and Signature_Pad.
+              </div>
             </div>
           </div>
 

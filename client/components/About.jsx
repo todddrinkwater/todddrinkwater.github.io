@@ -9,6 +9,7 @@ class About extends React.Component {
 
         <div className="about-header">
           <h1>about me</h1>
+          <hr />
           <p>
             Born and bred in Whangarei. I moved to Hamilton, to study and teach, London, to travel and teach, back to Hamilton... and most recently to windy, but otherwise incredible, Wellington.
 
@@ -16,6 +17,7 @@ class About extends React.Component {
 
             I have recently completed over nine hundred hours of learning at Ensprial Dev Academy and am starting out as a junior web developer, fresh out of the oven.
           </p>
+
         </div>
 
         <div className="about-passions">
@@ -23,7 +25,7 @@ class About extends React.Component {
           <div className="passionItemDetails">
           <div>
             <h1>passions</h1>
-            <p>
+            <hr />
               <ul>
                 <li>Making Music</li>
                 <li>Attempting to take half-decent photos</li>
@@ -31,7 +33,6 @@ class About extends React.Component {
                 <li>Exploring</li>
                 <li>Outdoors and Sports</li>
               </ul>
-            </p>
           </div>
           <div className="passionItemImage">
             <img src={"/img/snowboarding.png"} />
@@ -62,10 +63,8 @@ class About extends React.Component {
         </div>
 
         <div className="about-contact-container">
-          <h1>create. build. inspire.</h1>
-          <div>
-            <Router><Link to="/">Resume</Link></Router>
-          </div>
+          <h1>learn more.</h1>
+            <a href="/resume.pdf">Resume</a>
           <img src={"/img/richmondpark.jpg"} />
         </div>
       </div>

@@ -6,7 +6,7 @@ class Contact extends React.Component {
       <div className="contact">
         <div>
           <h1>Call me today.</h1>
-          <p>I currently reside in Wellington, New Zealand. Please feel free to reach out, whether its a simple hello, or a catch up over coffee (I drink a strong hot chocolate).</p>
+          <p>I currently reside in Wellington, New Zealand. Please feel free to reach out, whether its a simple hello, or a catch up over coffee.</p>
           <h2>Contact Information</h2>
           <ul>
             <li><i className="fa fa-phone fa-2x" aria-hidden="true"></i> 0274 421 9065</li>
