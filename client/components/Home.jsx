@@ -4,7 +4,7 @@ class Home extends React.Component {
   render () {
     return (
       <div className="background">
-        <img className="backgroundImage" src={"/img/bg2.jpg"} />
+        <img className="backgroundImage" src={"./public/img/bg2.jpg"} />
       </div>
     )
   }

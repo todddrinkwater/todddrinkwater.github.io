@@ -27565,7 +27565,7 @@
 	      return _react2.default.createElement(
 	        "div",
 	        { className: "background" },
-	        _react2.default.createElement("img", { className: "backgroundImage", src: "/img/bg2.jpg" })
+	        _react2.default.createElement("img", { className: "backgroundImage", src: "./public/img/bg2.jpg" })
 	      );
 	    }
 	  }]);
