@@ -236,7 +236,6 @@ body {
 .about-contact-container a {
   font-size: 1em;
   font-family: 'Open Sans', sans-serif;
-  z-index: 100;
   color: white;
   position: absolute;
   width: 5%;
