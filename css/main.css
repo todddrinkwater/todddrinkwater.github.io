@@ -9,7 +9,7 @@ html, body {
 }
 
 /*body {
-  padding-top: 8em;
+  background-image: url('../img/bg2.jpg');
 }*/
 
 nav ul {
@@ -53,6 +53,12 @@ nav li {
     text-decoration: none;
 }
 
+.full-name {
+  border: 0 solid black;
+  margin-left: 2.5em;
+  font-weight: bold;
+  font-size: 1.2em;
+}
 
 .fill-screen {
   width: 100%;
