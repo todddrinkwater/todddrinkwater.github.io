@@ -158,13 +158,14 @@ nav li {
 }
 
 
-.project-music img{
+.project-music img {
   width: 80%;
   display: -webkit-flex;
   display: flex;
+  margin: auto;
 }
 
-.guitar-pad {
+.single-image {
   margin: auto;
 }
 
