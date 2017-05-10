@@ -1,13 +1,132 @@
 <!DOCTYPE html>
-<head>
-  <title>todddrinkwater</title>
-  <link rel="stylesheet" href="./public/font-awesome/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans" rel="stylesheet">
-  <link rel="stylesheet" href="./public/main.css">
-</head>
-<body>
-  <div id="app"></div>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Didact+Gothic|Julius+Sans+One" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Todd Drinkwater - Full-Stack Developer</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="resume.pdf"> resume</a></li>
+        <li class="contact"><a href="#contact">contact</a></li>
+      </ul>
+    </nav>
+    <div class="fill-screen"><img class="bg" src="img/bg.jpg" /></div>
+    <div class="fill-screen toolkit">
+      <div class="header"><h1>Toolkit <i class="fa fa-wrench fa" aria-hidden="true"></i></h1></div>
+      <div class="table-row">
+        <div class="table-column"><img src="img/HTML5.png" />HTML 5</div>
+        <div class="table-column"><img src="img/css3.png" />CSS 3</div>
+        <div class="table-column"><img src="img/js.png" />Javascript</div>
+      </div>
+      <div class="table-row">
+        <div class="table-column"><img src="img/react.png" />React</div>
+        <div class="table-column"><img src="img/redux.png" />Redux</div>
+        <div class="table-column"><img src="img/handlebars.png" />Handlebars</div>
+      </div>
+      <div class="table-row">
+        <div class="table-column"><img src="img/node.png" />Node</div>
+        <div class="table-column"><img src="img/github.png" />Github</div>
+        <div class="table-column"><img src="img/sqlite.png" />Sqlite3</div>
+      </div>
+      <div class="table-row">
+        <div class="table-column"><img class="img-shrink" src="img/knex.png" />Knex</div>
+        <div class="table-column"><img class="img-shrink" src="img/webpack.png" />Webpack</div>
+        <div class="table-column"><img class="img-shrink" src="img/superagent.png" />SuperAgent</div>
+      </div>
+      <div><p> + Express, Nodemon, React-Router, Tape, Cheerio, SuperTest, AVA, Heroku, Git, Babel</p></div>
+    </div>
+    <div class="projects">
+      <div class="header"><h1>projects</h1></div>
+      <div class="project-item">
+        <div class="project-header header">
+          <h2>Community Sharing</h2>
+        </div>
+        <div class="project-imgs table-row">
+          <img src="img/community-sharing-home.png">
+          <img src="img/community-sharing-home.png">
+          <img src="img/community-sharing-home.png">
+        </div>
+        <div>
+          <p>
+            Community Sharing was an app designed by my team in our final week of Enspial Dev Academy BootCamp. It uses Javascript on both the front and back-end, and takes use of such frameworks and modules as React, Redux, Express, SuperAgent, and Knex. The main aim of our application was to build a product that could allow residents within Wellington to lend items and borrow items from each. The founding ideas behind this was to combat climate change and consumerism by buying less and sharing more.
+          </p>
+          <p>You can see a demo of this application at <a href="http://community-sharing.herokuapp.com/">community-sharing.herokuapp.com</a></p>
+        </div>
+      </div>
 
-  <script src="./public/bundle.js"></script>
-</body>
+        <div class="project-item">
+          <div class="project-header header">
+            <h2>SignHere</h2>
+          </div>
+          <div class="project-imgs table-row">
+            <img src="img/community-sharing-home.png">
+            <img src="img/community-sharing-home.png">
+            <img src="img/community-sharing-home.png">
+          </div>
+          <div>
+            <p>
+              SignHere is a personal project that is currently in progress. The aim of the application is to  eliminate the need for permission slips in the school setting. Permission Slips used to cost my school $75+ everytime I would print a set for a year level based trip, it caused more waste, and students would often lose them. This project is built using HTML5, CSS3, and Javascript. The key frameworks and modules are: React, Redux, Express, SuperAgent, Knex, and Signature_Pad.
+            </p>
+            <p>You can see a demo of this application at <a href="http://signhere.herokuapp.com/">signhere.herokuapp.com</a></p>
+          </div>
+        </div>
+
+        <div class="project-item">
+          <div class="project-header header">
+            <h2>Guitar Machine</h2>
+          </div>
+          <div class="project-music">
+            <img class="guitar-pad" src="img/guitar-pad.png">
+          </div>
+          <div>
+            <p>
+              Guitar Machine was a idea that came about from my love of playing Guitar and how I could get others to learn the common chord progressions to songs without having to pick up a guitar first. This project was built during phase-0 of my Enspiral Dev Academy course.
+            </p>
+            <p>Download the code from <a href="https://github.com/todddrinkwater/js-artprojec">here:</a></p>
+            </div>
+          </div>
+        </div>
+
+    <div class="about">
+      <div class="header"><h1>about me</h1></div>
+      <div class="about-desc">
+        <p>
+          Born and bred in Whangarei. I moved to Hamilton, to study and teach, London, to travel and teach, back to Hamilton... and most recently to windy, but otherwise incredible, Wellington. Developing a passion for coding in High School, I often considered the 'what if' for a number of years before eventually taking a leap of faith into the tech industry. I have recently completed over nine hundred hours of learning at Ensprial Dev Academy and am starting out as a junior web developer, fresh out of the oven.
+        </p>
+    </div>
+  </div>
+    <div class="resume"><a href="resume.pdf">View Resume</a></div>
+      <div class="contact-page" id="contact">
+          <div class="header"><h1>Lets chat!</h1></div>
+          <p>I currently reside in Wellington, New Zealand. Please feel free to reach out, whether its a simple hello, or a catch up over coffee.</p>
+          <h2>Contact Information</h2>
+            <div class="list-row">
+              <div class="contact-list-item">
+              <i class="fa fa-phone fa-2x" aria-hidden="true"></i></div>
+              <div class="detail">&nbsp 0274 421 9065</div>
+            </div>
+            <div class="list-row">
+              <div class="contact-list-item">
+                <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+              </div>
+              <div class="detail">todddrinkwaternz@gmail.com</div>
+            </div>
+            <div class="list-row">
+              <div class="contact-list-item">
+                <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+              </div>
+              <div class="detail">https://www.linkedin.com/in/todd-drinkwater/</div>
+            </div>
+            <div class="list-row">
+              <div class="contact-list-item">
+                <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+              </div>
+              <div class="detail">todddrinkwater.github.io</div>
+            </div>
+      </div>
+  </body>
 </html>
