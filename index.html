@@ -1,134 +1,249 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Didact+Gothic|Julius+Sans+One" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">
-    <title>Todd Drinkwater - Full-Stack Developer</title>
-  </head>
-  <body>
-    <nav>
-      <ul>
-        <li><a href="resume.pdf"> resume</a></li>
-        <li class="full-name">Todd Drinkwater</li>
-        <li class="contact"><a href="#contact">contact</a></li>
-      </ul>
-    </nav>
-    <div class="fill-screen">
-      <img class="bg" src="img/bg.jpg" />
-    </div>
-    <div class="fill-screen toolkit">
-      <div class="header"><h1 class="toolkit-title">full-stack toolkit </h1></div>
-      <div class="table-row">
-        <div class="table-column"><img src="img/HTML5.png" />HTML 5</div>
-        <div class="table-column"><img src="img/css3.png" />CSS 3</div>
-        <div class="table-column"><img src="img/js.png" />Javascript</div>
-      </div>
-      <div class="table-row">
-        <div class="table-column"><img src="img/react.png" />React</div>
-        <div class="table-column"><img src="img/redux.png" />Redux</div>
-        <div class="table-column"><img src="img/handlebars.png" />Handlebars</div>
-      </div>
-      <div class="table-row">
-        <div class="table-column"><img src="img/node.png" />Node</div>
-        <div class="table-column"><img src="img/github.png" />Github</div>
-        <div class="table-column"><img src="img/sqlite.png" />Sqlite3</div>
-      </div>
-      <div class="table-row">
-        <div class="table-column"><img class="img-shrink" src="img/knex.png" />Knex</div>
-        <div class="table-column"><img class="img-shrink" src="img/webpack.png" />Webpack</div>
-        <div class="table-column"><img class="img-shrink" src="img/superagent.png" />SuperAgent</div>
-      </div>
-      <div><p> + Express, Nodemon, React-Router, Tape, Cheerio, SuperTest, AVA, Heroku, Git, Babel</p></div>
-    </div>
-    <div class="projects">
-      <div class="header"><h1>projects</h1></div>
-      <div class="project-item">
-        <div class="project-header header">
-          <h2>Community Sharing</h2>
-        </div>
-        <div class="project-imgs table-row">
-          <img src="img/community-sharing-home.png">
-          <img src="img/community-sharing-dash.png">
-          <img src="img/community-sharing-search.png">
-        </div>
-        <div>
-          <p>
-            Community Sharing was an app designed by my team in our final week of Enspial Dev Academy BootCamp. It uses Javascript on both the front and back-end, and takes use of such frameworks and modules as React, Redux, Express, SuperAgent, and Knex. The main aim of our application was to build a product that could allow residents within Wellington to lend items and borrow items from each. The founding ideas behind this was to combat climate change and consumerism by buying less and sharing more.
-          </p>
-          <p>You can see a demo of this application at <a href="http://community-sharing.herokuapp.com/">community-sharing.herokuapp.com</a></p>
-        </div>
-      </div>
+<head>
+  <title>Todd Drinkwater</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./styles/images.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
 
-        <div class="project-item">
-          <div class="project-header header">
-            <h2>SignHere</h2>
-          </div>
-          <div class="project-music">
-            <img class="single-image" src="img/signhere.png">
-          </div>
-          <div>
-            <p>
-              SignHere is a personal project that is currently in progress. The aim of the application is to  eliminate the need for permission slips in the school setting. Permission Slips used to cost my school $75+ everytime I would print a set for a year level based trip, it caused more waste, and students would often lose them. This project is built using HTML5, CSS3, and Javascript. The key frameworks and modules are: React, Redux, Express, SuperAgent, Knex, and Signature_Pad.
-            </p>
-            <p>You can see a demo of this application at <a href="http://signhere.herokuapp.com/">signhere.herokuapp.com</a></p>
-          </div>
-        </div>
-
-        <div class="project-item">
-          <div class="project-header header">
-            <h2>Guitar Machine</h2>
-          </div>
-          <div class="project-music">
-            <img class=".single-image" src="img/guitar-pad.png">
-          </div>
-          <div>
-            <p>
-              Guitar Machine was a idea that came about from my love of playing Guitar and how I could get others to learn the common chord progressions to songs without having to pick up a guitar first. This project was built during phase-0 of my Enspiral Dev Academy course.
-            </p>
-            <p>Download the code from <a href="https://github.com/todddrinkwater/js-artprojec">here.</a></p>
-            </div>
-          </div>
-        </div>
-
-    <div class="about">
-      <div class="header"><h1>about me</h1></div>
-      <div class="about-desc">
-        <p>
-          Born and bred in Whangarei. I moved to Hamilton, to study and teach, London, to travel and teach, back to Hamilton... and most recently to windy, but otherwise incredible, Wellington. Developing a passion for coding in High School, I often considered the 'what if' for a number of years before eventually taking a leap of faith into the tech industry. I have recently completed over nine hundred hours of learning at Ensprial Dev Academy and am starting out as a junior web developer, fresh out of the oven.
-        </p>
-    </div>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="cv.pdf" class="w3-bar-item w3-button w3-hide-small w3-right">
+   <i class="fa fa-paper-plane"></i> VIEW RESUME</a>
   </div>
 
-      <div class="contact-page" id="contact">
-          <div class="header"><h1>Lets chat!</h1></div>
-          <p>I currently reside in Wellington, New Zealand. Please feel free to reach out, whether its a simple hello, or a catch up over coffee.</p>
-          <h2>Contact Information</h2>
-            <div class="list-row">
-              <div class="contact-list-item">
-              <i class="fa fa-phone fa-2x" aria-hidden="true"></i></div>
-              <div class="detail">&nbsp 0274 421 9065</div>
-            </div>
-            <div class="list-row">
-              <div class="contact-list-item">
-                <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
-              </div>
-              <div class="detail">todddrinkwaternz@gmail.com</div>
-            </div>
-            <div class="list-row">
-              <div class="contact-list-item">
-                <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
-              </div>
-              <div class="detail">https://www.linkedin.com/in/todd-drinkwater/</div>
-            </div>
-            <div class="list-row">
-              <div class="contact-list-item">
-                <i class="fa fa-github fa-2x" aria-hidden="true"></i>
-              </div>
-              <div class="detail">todddrinkwater.github.io</div>
-            </div>
-            <div class="resume"><a href="resume.pdf">View Resume</a></div>
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="cv.pdf" class="w3-bar-item w3-button">VIEW RESUME</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">T<span class="w3-hide-small">ODD</span> DRINKWATER</span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">ABOUT ME</h3>
+  <p class="w3-center"><em>Lovin' life</em></p>
+  <p>
+  Fresh out of the boot camp oven that is Ensipral Dev Academy, I am a freshly made full-stack junior web developer. Previous to this, I had seven years experience in teaching PE, Outdoor Education, Health and a touch of Science, meaning I have all the ingredients needed to make an effective learner. So far I have over 1000 hours in development experience ranging from Github to Javascript ES6 with React and Redux. If you are interested in finding out more, check out my resume <a href="cv.pdf">here</a> or feel free to give me a <a href="#contact">call</a>.
+</p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <br>
+      <img src="./images/profilephoto.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <h3>EXPERIENCE IN</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS3</li>
+        <li>Javascript (ES6) + Node.js + <a href="https://www.npmjs.com">NPM</a></li>
+        <li>Front End - <a href="https://facebook.github.io/react">React<a/>, <a href="http://redux.js.org/">Redux<a/>, <a href="http://handlebarsjs.com/">Handlebars</a> and <a href="https://www.npmjs.com/package/superagent">SuperAgent</a></li>
+        <li>Back End - <a href="http://knexjs.org/">KnexJS</a>, <a href="https://www.sqlite.org/">Sqlite3</a>, + <a href="https://expressjs.com/">Express</a></li>
+        <li>Testing - <a href="https://www.npmjs.com/package/tape">Tape</a>, <a href="https://www.npmjs.com/package/supertest">Supertest</a>, <a href="https://cheerio.js.org/">Cheerio</a></li>
+        <li>GitHub</li>
+        <li>Python (currently learning)</li>
+      </ul>
+    </div>
+  </div>
+  <p class="w3-large w3-center w3-padding-16">I'm really good at:</p>
+  <p class="w3-wide"><i class="fa fa-users" aria-hidden="true"></i>People Skills</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:99%">99%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-laptop"></i>Front End Development</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">90%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-laptop"></i>Back End Development</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
+  </div>
+</div>
+
+<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">1000+</span><br>
+    Hours of Dev Experience
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">7+</span><br>
+    Years teaching experience
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">4</span><br>
+    Programming Languages
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">250+</span><br>
+    Hours of Pair Programming Experience
+  </div>
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center">MY WORK</h3>
+  <p class="w3-center"><em>Recent Projects<br> Click on the images to make them bigger</em></p><br>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <h3 class="w3-center">Community Sharing</h3>
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="images/community-sharing-dash.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Community Sharing Dashboard">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="images/community-sharing-home.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Community Sharing Home">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="images/community-sharing-search.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Community Sharing Search">
+    </div>
+
+    <div class="w3-col m3 w3-hide-small">
+      <img src="images/community-sharing-item.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Community Sharing Item">
+    </div>
+  </div>
+  <h3 class="w3-center">Guitar Pad</h3>
+  <div class="w3-row-padding w3-center w3-section">
+    <div>
+      <img src="./images/guitar-pad.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Guitar Pad">
+    </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">WHERE YOU CAN FIND ME</h3>
+  <p class="w3-center"><em>I'd love your feedback!</em></p>
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+      <!-- Add Google Maps -->
+      <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px;"></div>
+    </div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Wellington, NZ<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>+64 (0) 27 421 9065<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> todddrinkwaternz@gmail.com<br>
       </div>
-  </body>
+      <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or feel free to get in touch.</p>
+
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</footer>
+
+<!-- Add Google Maps -->
+<script>
+function myMap()
+{
+  myCenter=new google.maps.LatLng(-41.287075, 174.770634);
+  var mapOptions= {
+    center:myCenter,
+    zoom:12, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card-2" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card-2 w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDuEXkav_nbZwAd4ZGug4_eMxcvFxVehuQ&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+</body>
 </html>
