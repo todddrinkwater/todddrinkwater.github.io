@@ -40,3 +40,10 @@ body, html {
         background-attachment: scroll;
     }
 }
+
+@media only screen and (max-device-width: 500px) {
+  .bgimg-1 {
+      background-image: url('../images/bg.jpg');
+      min-height: 100%;
+  }
+}
